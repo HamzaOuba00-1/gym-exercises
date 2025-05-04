@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# 🏋️ 7zz Gym
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**7zz Gym** is an interactive web platform designed to help users explore, understand, and perform gym exercises effectively. The site combines descriptive data and tutorial videos using two powerful APIs to deliver a complete fitness guidance experience.
 
-## Available Scripts
+## 🏃 Project Overview
 
-In the project directory, you can run:
+7zz Gym provides users with access to a comprehensive list of gym exercises, categorized by target muscles and equipment. For each exercise, users can view detailed information, watch tutorial videos, and discover similar workouts based on the same muscle group or equipment.
 
-### `npm start`
+## 🧩 Core Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 💪 Exercise Explorer
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Users can discover exercises through intuitive browsing or search functionality:
 
-### `npm test`
+* **Target Muscle Info**: Learn which muscles each exercise primarily and secondarily works.
+* **Equipment Type**: See what equipment is needed for each movement.
+* **GIF Previews**: Visual demo of the exercise from the API.
+* **Similar Exercises**: Recommendations by muscle or equipment.
+* **Search Filters**: Browse exercises by name, target, or equipment.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎥 Video Integration
 
-### `npm run build`
+Each exercise page includes related tutorial videos pulled in via YouTube API:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Search-Based Video Display**: Videos are matched to exercise names.
+* **Embedded Playback**: Videos are displayed directly in the UI.
+* **Multiple Results**: Users can watch different tutorial styles.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔧 Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+* **APIs**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  * [ExerciseDB API](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb) for exercise data
+  * [YouTube Search and Download API](https://rapidapi.com/h0p3rwe/api/youtube-search-and-download) for video content
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔐 Security & API Handling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* All API requests are made securely using headers with RapidAPI keys.
+* Environment variables are used to protect API credentials on the frontend.
+* Input sanitization for search functionality to prevent misuse.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
