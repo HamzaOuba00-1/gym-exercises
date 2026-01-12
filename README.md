@@ -2,6 +2,12 @@
 
 **7zz Gym** is an interactive web platform designed to help users explore, understand, and perform gym exercises effectively. The site combines descriptive data and tutorial videos using two powerful APIs to deliver a complete fitness guidance experience.
 
+
+
+## 🎥 Demo Video
+
+[![Time2bUS Demo](https://img.youtube.com/vi/fNZ7gIKB8RA/0.jpg)](https://www.youtube.com/watch?v=fNZ7gIKB8RA)
+
 ## 🏃 Project Overview
 
 7zz Gym provides users with access to a comprehensive list of gym exercises, categorized by target muscles and equipment. For each exercise, users can view detailed information, watch tutorial videos, and discover similar workouts based on the same muscle group or equipment.
