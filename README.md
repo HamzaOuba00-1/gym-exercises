@@ -6,7 +6,7 @@
 
 ## 🎥 Demo Video
 
-[![Time2bUS Demo](https://img.youtube.com/vi/fNZ7gIKB8RA/0.jpg)](https://www.youtube.com/watch?v=fNZ7gIKB8RA)
+[![ Demo](https://img.youtube.com/vi/fNZ7gIKB8RA/0.jpg)](https://www.youtube.com/watch?v=fNZ7gIKB8RA)
 
 ## 🏃 Project Overview
 
